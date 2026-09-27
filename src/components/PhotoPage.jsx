@@ -8,6 +8,14 @@ function PhotoPage({
   onNext,
   featured = false,
 }) {
+
+    const captions = [
+    "A beautiful memory",
+    "A moment to remember",
+    "A beautiful soul",
+    "Forever in my heart",
+  ];
+
   return (
     <section className={`photo-page ${featured ? "featured-page" : ""}`}>
       <header className="page-heading">
@@ -30,7 +38,7 @@ function PhotoPage({
               />
               <span className="placeholder-text">Add your photo</span>
             </div>
-            <figcaption>{index === 0 ? "A beautiful memory" : "A moment to remember"}</figcaption>
+            <figcaption>{captions[index]}</figcaption>
           </figure>
         ))}
       </div>
