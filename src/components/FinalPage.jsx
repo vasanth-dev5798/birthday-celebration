@@ -13,7 +13,7 @@ function FinalPage({ onRestart }) {
         <h1>
           Happy
           <br />
-          <em>Birthday</em>
+          <em>Birthday!!!</em>
         </h1>
 
         <div className="heart-line">♡</div>
@@ -24,6 +24,10 @@ function FinalPage({ onRestart }) {
           happiness, laughter, love,
           <br />
           and countless beautiful memories.
+          <br />
+          Still many more adventures await you, and I can't wait to see all the wonderful things you'll accomplish.
+          <br />
+          Will always be with you at every step of the way. Till my last breath, I will be your biggest cheerleader and your biggest fan. You are my everything, and I am so grateful to have you in my life.
         </p>
 
         <p className="final-wish">
